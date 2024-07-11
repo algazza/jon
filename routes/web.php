@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\DashboardController;
-use App\Http\Controllers\Admin\BannerController;
+use App\Http\Controllers\Admin\Component\BannerController;
 
 
 Route::get('/', function(){
@@ -54,7 +54,7 @@ Route::get('/', function(){
 Route::get('/Dashboard', [DashboardController::class,'tampil'])->name('dashboard.tampil');
 
 
-Route::get("/Banner", [BannerController::class, 'tampil'])->name('banner.tampil');
+Route::get("/Baner", [BannerController::class, 'tampil'])->name('banner.tampil');
 
 // Banner
 

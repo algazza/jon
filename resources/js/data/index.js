@@ -21,6 +21,45 @@ export const formIdentitas= [
     },
 ]
 
+
+export const formPekerjaan=[
+    {
+        id: "wirausaha",
+        title: "Wirausaha",
+    },
+    {
+        id: "karyawan",
+        title: "Karyawan Swasta",
+    },
+    {
+        id: "asn",
+        title: "ASN(PNS)",
+    },
+    {
+        id: "lainnya",
+        title: "Lainnya",
+    },
+]
+
+export const formPenghasilan=[
+    {
+        id: "normal",
+        title: "5 Juta",
+    },
+    {
+        id: "lehuga",
+        title: "5 - 10 Juta",
+    },
+    {
+        id: "orkay",
+        title: "10 - 15 Juta",
+    },
+    {
+        id: "sugih",
+        title: ">15 Juta",
+    },
+]
+
 export const formSelectKredit= [
     {
         id: "waktu",
@@ -46,4 +85,5 @@ export const formSelectKredit= [
         option3: "Efektif"
     },
 ]
+
 

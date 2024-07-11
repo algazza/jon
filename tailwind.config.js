@@ -12,10 +12,6 @@ export default {
 
     theme: {
         extend: {
-            gridTemplateColumns: {
-                layout: "repeat(2, 300px)",
-                'testing': 'repeat(16, minmax(0, 1fr))',
-            },
             colors: {
                 primary: "#f8f8f8",
                 abuTerang: "#F9F9F9",
@@ -30,6 +26,10 @@ export default {
                 md: "1060px",
                 lg: "1200px",
                 xl: "1700px",
+            },
+            gridTemplateColumns: {
+                x2500: "620px 230px",
+                x250: "250px",
             },
         },
     },

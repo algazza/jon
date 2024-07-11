@@ -12,7 +12,11 @@ export default {
 
     theme: {
         extend: {
-            colors:{
+            gridTemplateColumns: {
+                layout: "repeat(2, 300px)",
+            },
+            colors: {
+                primary: "#f8f8f8",
                 abuTerang: "#F9F9F9",
             },
             fontFamily: {
@@ -29,9 +33,9 @@ export default {
         },
     },
     daisyui: {
-        themes: ["light",],
+        themes: ["light"],
         // styled: [false],
-      },
+    },
 
-    plugins: [forms, require('daisyui'),], 
+    plugins: [forms, require("daisyui")],
 };

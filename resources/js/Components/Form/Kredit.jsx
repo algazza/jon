@@ -6,7 +6,7 @@ const Kredit = () => {
     return (
         <div className="">
             <h2 className={`${styles.heading2} mb-2`}>Pengajuan</h2>
-            <form action="" className="grid gap-4">
+            <form action="" className="grid gap-4 md:grid-cols-2">
                 <div className="grid grid-cols-2 gap-4">
                     <div className={`${styles.inputSpan}`}>
                         <span>Jumlah Pinjaman</span>
@@ -40,7 +40,7 @@ const Kredit = () => {
                     ))}
                 </div>
 
-                <div className="form-control bg-abuTerang p-6 border border-black rounded-md">
+                <div className="form-control bg-abuTerang p-6 border border-black rounded-md min-w-[90px] md:col-[2/3] md:row-[1/3]">
                     <h1 className="">Pekerjaan</h1>
                     <form className="" required>
                         <label className="justify-start gap-4 label cursor-pointer">

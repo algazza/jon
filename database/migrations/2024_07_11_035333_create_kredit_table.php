@@ -13,6 +13,19 @@ return new class extends Migration
     {
         Schema::create('kredit', function (Blueprint $table) {
             $table->id();
+            $table->string('nama');
+            $table->string('email')->unique();  
+            $table->integer('no_handphone');
+            $table->integer('nik');
+            $table->string('alamat');
+            $table->string('pekerjaan');
+            $table->string('jumlah_pinjaman');
+            $table->string('jangka_waktu');
+            $table->string('bunga');
+            $table->string('jenis_angunan');
+            $table->string('perhitungan_bunga');
+            $table->string('penghasilan_perbulan');
+            $table->string('catatan');
             $table->timestamps();
         });
     }

@@ -14,6 +14,7 @@ export default {
         extend: {
             gridTemplateColumns: {
                 layout: "repeat(2, 300px)",
+                'testing': 'repeat(16, minmax(0, 1fr))',
             },
             colors: {
                 primary: "#f8f8f8",

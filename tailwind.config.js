@@ -17,7 +17,7 @@ export default {
                 abuTerang: "#F9F9F9",
             },
             fontFamily: {
-                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+                poppins: ["Poppins", "sans-serif"]
             },
             screens: {
                 xs: "480px",

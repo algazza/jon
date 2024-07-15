@@ -90,5 +90,29 @@ export const footer1= [
     {
         id: "1",
         title: "Tentang Kami",
+        link: "/tentangkami"
+    },
+    {
+        id: "2",
+        title: "Kebijakan Privasi",
+        link: "/kebijakanprivasi"
+    },
+    {
+        id: "3",
+        title: "GCG",
+        link: "/gcg"
+    },
+]
+
+export const footer2= [
+    {
+        id: "1",
+        title: "Lokasi Kami",
+        link: "/lokasikmau"
+    },
+    {
+        id: "2",
+        title: "Hubungi Kami",
+        link: "/hubungikami"
     },
 ]

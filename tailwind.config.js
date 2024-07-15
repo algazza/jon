@@ -31,6 +31,9 @@ export default {
                 x2500: "620px 230px",
                 x250: "250px",
             },
+            backgroundImage: {
+                footerimg: "url('../img/Footer-img.svg')",
+              },
         },
     },
     daisyui: {

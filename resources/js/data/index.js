@@ -86,4 +86,9 @@ export const formSelectKredit= [
     },
 ]
 
-
+export const footer1= [
+    {
+        id: "1",
+        title: "Tentang Kami",
+    },
+]

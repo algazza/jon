@@ -11,7 +11,7 @@
 <body>
     <section class="fixed z-40 box-border border-[0.5px] border-black shadow-2xl">
           <div class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px] duration-1000
-            p-2 w-60 overflow-y-auto text-center bg-gray-50 shadow h-screen overflow-hidden font-semibold">
+            p-2 w-16 overflow-y-auto text-center bg-gray-50 shadow h-screen overflow-hidden font-semibold">
             <div class="text-gray-100 text-xl">
               <div class="p-2.5 mt-1 flex items-center rounded-md">
                 <i class="bx bx-pie-chart-alt-2  px-2 py-2 bg-black text-gray-50 rounded-md" onclick="Openbar()"></i>
@@ -35,10 +35,10 @@
                     </span>
                   </div>
                 </div>
-                <div class=" leading-7 text-left text-sm font-thin mt-2 w-4/5 mx-auto" id="submenu">
-                  <h1 class="cursor-pointer p-2 hover:bg-gray-300 rounded-md mt-1 text-black">Social</h1>
-                  <h1 class="cursor-pointer p-2 hover:bg-gray-300 rounded-md mt-1 text-black">Personal</h1>
-                  <h1 class="cursor-pointer p-2 hover:bg-gray-300 rounded-md mt-1 text-black">Friends</h1>
+                <div class=" leading-7 text-left text-sm font-thin mt-2 w-4/5 mx-auto pl-[3rem]" id="submenu">
+                  <h1 class="cursor-pointer p-2 hover:bg-gray-300 rounded-md mt-1 text-black font-semibold">Kredit</h1>
+                  <h1 class="cursor-pointer p-2 hover:bg-gray-300 rounded-md mt-1 text-black font-semibold">Personal</h1>
+                  <h1 class="cursor-pointer p-2 hover:bg-gray-300 rounded-md mt-1 text-black font-semibold">Friends</h1>
                 </div>
                 <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-blue-600 bottom-0 w-screen mr-[1rem]">
                     <i class='bx bxl-xing' ></i>

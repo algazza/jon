@@ -47,72 +47,110 @@
         </div>
         <div class="flex">
             <div class="block px-[10rem] mt-[14.5rem] bg-gray-200 w-screen text-left">
-                <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
-                    <div class="flex">
-                        <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
-                            <i class='text-black bx bx-credit-card' ></i>
-                        </div>
-                        <div class="block mt-[0.8rem]">
-                            <h3 class="text-[1.1rem] font-bold">Kredit</h3>
-                            <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
-                    <div class="flex">
-                        <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
-                            <i class='text-black bx bx-credit-card' ></i>
-                        </div>
-                        <div class="block mt-[0.8rem]">
-                            <h3 class="text-[1.1rem] font-bold">Kredit</h3>
-                            <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                <a href="/Kredit">
+                    <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
+                        <div class="flex">
+                            <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
+                                <i class='text-black bx bx-credit-card' ></i>
+                            </div>
+                            <div class="block mt-[0.8rem]">
+                                <h3 class="text-[1.1rem] font-bold">Kredit</h3>
+                                <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
-                    <div class="flex">
-                        <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
-                            <i class='text-black bx bx-credit-card' ></i>
-                        </div>
-                        <div class="block mt-[0.8rem]">
-                            <h3 class="text-[1.1rem] font-bold">Kredit</h3>
-                            <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
-                    <div class="flex">
-                        <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
-                            <i class='text-black bx bx-credit-card' ></i>
-                        </div>
-                        <div class="block mt-[0.8rem]">
-                            <h3 class="text-[1.1rem] font-bold">Kredit</h3>
-                            <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                </a>
+                <a href="">
+                    <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
+                        <div class="flex">
+                            <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
+                                <i class='text-black bx bx-credit-card' ></i>
+                            </div>
+                            <div class="block mt-[0.8rem]">
+                                <h3 class="text-[1.1rem] font-bold">Kredit</h3>
+                                <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
-                    <div class="flex">
-                        <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
-                            <i class='text-black bx bx-credit-card' ></i>
-                        </div>
-                        <div class="block mt-[0.8rem]">
-                            <h3 class="text-[1.1rem] font-bold">Kredit</h3>
-                            <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
-                    <div class="flex">
-                        <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
-                            <i class='text-black bx bx-credit-card' ></i>
-                        </div>
-                        <div class="block mt-[0.8rem]">
-                            <h3 class="text-[1.1rem] font-bold">Kredit</h3>
-                            <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                </a>
+                <a href="">
+                    <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
+                        <div class="flex">
+                            <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
+                                <i class='text-black bx bx-credit-card' ></i>
+                            </div>
+                            <div class="block mt-[0.8rem]">
+                                <h3 class="text-[1.1rem] font-bold">Kredit</h3>
+                                <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
+                <a href="">
+                    <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
+                        <div class="flex">
+                            <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
+                                <i class='text-black bx bx-credit-card' ></i>
+                            </div>
+                            <div class="block mt-[0.8rem]">
+                                <h3 class="text-[1.1rem] font-bold">Kredit</h3>
+                                <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
+                        <div class="flex">
+                            <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
+                                <i class='text-black bx bx-credit-card' ></i>
+                            </div>
+                            <div class="block mt-[0.8rem]">
+                                <h3 class="text-[1.1rem] font-bold">Kredit</h3>
+                                <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
+                        <div class="flex">
+                            <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
+                                <i class='text-black bx bx-credit-card' ></i>
+                            </div>
+                            <div class="block mt-[0.8rem]">
+                                <h3 class="text-[1.1rem] font-bold">Kredit</h3>
+                                <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
+                        <div class="flex">
+                            <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
+                                <i class='text-black bx bx-credit-card' ></i>
+                            </div>
+                            <div class="block mt-[0.8rem]">
+                                <h3 class="text-[1.1rem] font-bold">Kredit</h3>
+                                <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="w-[33rem] h-[4.4rem] bg-gray-50 rounded-[5px] my-[0.6rem] box-border border-[0.5px] border-black shadow-md">
+                        <div class="flex">
+                            <div class="text-[3.5rem] mt-[-0.1rem] mx-[1.5rem]">
+                                <i class='text-black bx bx-credit-card' ></i>
+                            </div>
+                            <div class="block mt-[0.8rem]">
+                                <h3 class="text-[1.1rem] font-bold">Kredit</h3>
+                                <p class="mt-[-0.4rem]">opka oajdajdjoa doadoajd ad</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
                 <div class="w-[33rem] h-[4rem] bg-gray-200 rounded-[5px] my-[0.8rem] text-gray-200">
                     p
                 </div>

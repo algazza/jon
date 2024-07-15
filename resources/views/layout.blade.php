@@ -8,7 +8,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body >
     <section class="fixed z-40 box-border border-[0.5px] border-black shadow-2xl">
           <div class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px] duration-1000
             p-2 w-16 overflow-y-auto text-center bg-gray-50 shadow h-screen overflow-hidden font-semibold">

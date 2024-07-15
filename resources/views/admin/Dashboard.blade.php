@@ -240,8 +240,6 @@
                             Deposit
                         </p>
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>

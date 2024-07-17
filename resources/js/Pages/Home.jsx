@@ -9,9 +9,13 @@ import Footer from "@/Layouts/Footer";
 const Home = () => {
     return (
 <>
-            <main className="bg-primary overflow-hidden">
+            <main className="bg-primary overflow-hidden font-jakarta">
                 <div className={`${styles.flexCenter}`}>
-                    <FormBank isiPenting={<Kredit />} context="kredit" />
+                    <FormBank isiPenting={<Kredit />} value={"kredit"} />
+                </div>
+
+                <div className={`${styles.flexCenter}`}>
+                    <FormBank isiPenting={<Tabungan />} context="kredit" />
                 </div>
             </main>
             <Footer/>

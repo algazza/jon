@@ -1,17 +1,32 @@
 import { footer1, footer2 } from "@/data";
 import styles from "@/data/style";
 import React from "react";
-import footerbg from "../img/Footer-img.svg"
+import footerbg from "../img/Footer-img.svg";
+import logoArmor from "../img/LOGO-AM-CORAL-BARU.svg";
 
 const Footer = () => {
     return (
         <footer className="my-8">
-            <div className="flex justify-between">
-                <div className="bg-cover bg-[url(http://[::1]:5173/resources/js/img/Footer-img.svg)]">
-                
+            <div className="flex flex-col md:flex-row justify-between mr-4">
+                <img
+                    src={footerbg}
+                    alt=""
+                    className="absolute -left-[4rem] -z-[1]"
+                />
+                <div className="flex flex-col p-10">
+                    <a href="/" className="text-white flex items-center gap-3">
+                        <img src={logoArmor} alt="logo" />
+                        <span className={`${styles.heading4} w-10 xs:leading-[24px] leading-[20px]`}>
+                            BPR ARTO MORO
+                        </span>
+                    </a>
+                    <p className="text-white">
+                        Office : Jl. Elang Raya No. 99 Mangunharjo, Tembalang,
+                        Semarang
+                    </p>
                 </div>
-                <div className="grid md:grid-cols-2 grid-cols-3 mx-10">
-                    <div className="">
+                <div className="grid md:grid-cols-2 grid-cols-3 mx-10 gap-2">
+                    <div className="mr-8">
                         <h4 className={`${styles.heading4}`}>
                             Informasi Perusahaan
                         </h4>

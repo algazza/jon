@@ -17,7 +17,8 @@ export default {
                 abuTerang: "#F9F9F9",
             },
             fontFamily: {
-                poppins: ["Poppins", "sans-serif"]
+                poppins: ["Poppins", "sans-serif"],
+                jakarta: ["Plus Jakarta Sans", "sans-serif"]
             },
             screens: {
                 xs: "480px",

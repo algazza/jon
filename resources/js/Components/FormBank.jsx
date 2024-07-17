@@ -3,13 +3,13 @@ import styles from "../data/style";
 import { Title } from "@/data/user";
 import { formIdentitas, formPekerjaan } from "@/data";
 
-const FormBank = ({ isiPenting }) => {
+const FormBank = ({ isiPenting, value }) => {
     return (
         <section className="grid my-12 gap-12">
             <div className="">
                 <h2 className={`${styles.heading2} mb-8 `}>Identitas</h2>
 
-                <form action="" className="grid  gap-4 mx-auto  md:grid-cols-x2500">
+                <form action="" className="grid gap-4 mx-auto  md:grid-cols-x2500">
                     <div className="grid sm:justify-center w-full sm:grid-cols-2 gap-4">
                         {formIdentitas.map((iden) => (
                             <div
@@ -23,6 +23,7 @@ const FormBank = ({ isiPenting }) => {
                                     placeholder={iden.title}
                                     class="input input-primary input-bordered w-full max-w-xs"
                                     name={iden.id}
+
                                 />
                             </div>
                         ))}
@@ -74,6 +75,8 @@ const FormBank = ({ isiPenting }) => {
             </div>
 
             {isiPenting}
+            <input type="hidden" name="_action" value={value} />
+
         </section>
     );
 };

@@ -79,6 +79,19 @@ const FormBank = ({ isiPenting, value }) => {
 
                 {isiPenting}
 
+                <div className="form-control">
+                    <label className="label cursor-pointer justify-start gap-4">
+                        <input
+                            type="checkbox"
+                            defaultChecked
+                            className="checkbox"
+                        />
+                        <span className="label-text">
+                        Dengan ini saya menyetujui penggunaan data diatas untuk pengajuan kredit melalui BPR Arto Moro.
+                        </span>
+                    </label>
+                </div>
+
                 <input type="hidden" name="_action" value={value} />
                 <button className="overflow-hidden relative w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group">
                     Hover me!

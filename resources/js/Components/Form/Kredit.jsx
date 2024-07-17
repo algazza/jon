@@ -85,7 +85,7 @@ const Kredit = () => {
                         className="textarea textarea-bordered"
                         placeholder="Catatan"
                     ></textarea>
-                    <p className={`${styles.fontCaption}`}>
+                    <p className={`${styles.fontCaption} mt-2`}>
                         Mohon mengisi di CATATAN kalo memang ada Informasi Awal
                         yang perlu disampaikan kepada kami. Terima kasih telah
                         memberikan kepercayaan kepada BPR ARTO MORO Semarang,

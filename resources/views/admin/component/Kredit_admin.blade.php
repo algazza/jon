@@ -1,8 +1,8 @@
 @extends('layout')
 @section('content')
-    <section class="box-border p-0 m-0 bg-gray-200 text-center justify-center items-center h-screen font-poppins">
-        <section class="grid grid-cols-2 grid-template-columns: repeat(2, minmax(0, 1fr));">
-            <div class="bg-gray-50 w-[26rem] my-[2rem] ml-[8rem] rounded-[5px] relative h-[35rem] box-border border-[0.5px] border-black shadow-lg overflow-auto">
+    <section class="box-border p-0 m-0 bg-gray-200 text-center justify-center items-center h-screen font-poppins overflow-hidden">
+        <section class="grid grid-cols-2 grid-template-columns: repeat(2, minmax(0, 1fr)); pt-[3rem]">
+            <div class="bg-gray-50 w-[26rem] my-[2rem] ml-[8rem] rounded-[5px] relative h-[73%] box-border border-[0.5px] border-black shadow-lg overflow-auto">
                 <div class="text-left text-[1.2rem] text-black pl-[2rem] pt-[1.2rem]">
                     <p>All Person Data</p>
                 </div>
@@ -202,7 +202,7 @@
                 </div>
             </div>
 
-            <div class="ml-[-3rem] mt-[2.5rem]">
+            <div class="ml-[-3rem] mt-[1.5rem]">
                 <div class="w-[13rem] py-[0.3rem] mb-[1rem] rounded-[7px] text-[1.1rem] font-semibold bg-gray-50 box-border border-black shadow-lg">
                     <p>Kredit</p>
                 </div>
@@ -210,7 +210,7 @@
                     {!! $chart->container() !!}
                 </div>    
                 <div class="flex flex-wrap mt-[1rem] mr-[2rem] gap-4">
-                    <div class="bg-gray-50 w-[19.5rem] rounded-[5px] box-border border-[0.2px] border-black shadow-lg h-[18rem] text-left p-[0.9rem]">
+                    <div class="bg-gray-50 w-[19.5rem] rounded-[5px] box-border border-[0.2px] border-black shadow-lg h-[50%rem] text-left p-[0.9rem]">
                         <div class="text-[0.9rem]">
                             <p>Total Credit</p>
                         </div>
@@ -293,7 +293,7 @@
                             
                         </div>
                     </div>
-                    <div class="bg-gray-50 w-[19.5rem] rounded-[5px] box-border border-[0.2px] border-black shadow-lg h-[18rem] text-left p-[0.9rem]">
+                    <div class="bg-gray-50 w-[19.5rem] rounded-[5px] box-border border-[0.2px] border-black shadow-lg h-[50%rem] text-left p-[0.9rem]">
                         <div class="text-[0.9rem]">
                             <p>Total Credit</p>
                         </div>

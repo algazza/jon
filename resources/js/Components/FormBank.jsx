@@ -8,7 +8,7 @@ const FormBank = ({ isiPenting, value }) => {
         <section className={`${styles.fontBody}`}>
             <form className="grid my-12 gap-12">
                 <div className="">
-                    <h2 className={`${styles.heading2} mb-8 `}>Identitas</h2>
+                    <h2 className={`${styles.heading3} mb-4 `}>Identitas</h2>
 
                     <div
                         action=""
@@ -79,17 +79,21 @@ const FormBank = ({ isiPenting, value }) => {
 
                 {isiPenting}
 
-                <div className="form-control">
-                    <label className="label cursor-pointer justify-start gap-4">
-                        <input
-                            type="checkbox"
-                            defaultChecked
-                            className="checkbox"
-                        />
-                        <span className="label-text">
-                        Dengan ini saya menyetujui penggunaan data diatas untuk pengajuan kredit melalui BPR Arto Moro.
-                        </span>
-                    </label>
+                <div>
+                    <div className="form-control gap-2">
+                        <label className="label cursor-pointer justify-start gap-4">
+                            <input type="checkbox" className="checkbox" />
+                            <span className={`${styles.fontBody} label-text`}>
+                                Dengan ini saya menyetujui penggunaan data
+                                diatas untuk pengajuan kredit melalui BPR Arto
+                                Moro.
+                            </span>
+                        </label>
+                        <span>* Pengajuan melalui website ini gratis</span>
+                        <span>* Proses analisa dan persetujuan dilakukan bank penyalur KUR</span>
+                        <span>* Pastikan no. HP Anda sudah benar dan aktif. Pastikan alamat usaha Anda sudah benar</span>
+                    </div>
+
                 </div>
 
                 <input type="hidden" name="_action" value={value} />

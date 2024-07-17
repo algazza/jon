@@ -5,7 +5,7 @@ import React from "react";
 const Kredit = () => {
     return (
         <div className="">
-            <h2 className={`${styles.heading2} mb-2`}>Pengajuan</h2>
+            <h2 className={`${styles.heading3} mb-4`}>Pengajuan</h2>
 
             <div
                 action=""

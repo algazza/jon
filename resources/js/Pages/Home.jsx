@@ -5,6 +5,7 @@ import Kredit from "@/Components/Form/Kredit";
 import Tabungan from "@/Components/Form/Tabungan";
 import styles from "@/data/style";
 import Footer from "@/Layouts/Footer";
+import "../../css/app.css"
 
 const Home = () => {
     return (
@@ -14,9 +15,6 @@ const Home = () => {
                     <FormBank isiPenting={<Kredit />} value={"kredit"} />
                 </div>
 
-                <div className={`${styles.flexCenter}`}>
-                    <FormBank isiPenting={<Tabungan />} context="kredit" />
-                </div>
             </main>
             <Footer/>
 </>

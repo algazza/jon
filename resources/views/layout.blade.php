@@ -9,18 +9,22 @@
     @vite('resources/css/app.css')
 </head>
 <body >
-    <section class="fixed z-40 box-border border-[0.5px] border-black shadow-2xl">
+    <section class="fixed z-40 shadow-2xl flex flex-row">
+          <div class="bg-gray-50 w-screen z-50 h-[3.5rem] box-border border-black shadow-md">
+            <div class="mt-[0.7rem]">
+              <p class="text-[1.2rem]">Admin Dashboard</p>
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+          </div>
           <div class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px] duration-1000
-            p-2 w-16 overflow-y-auto text-center bg-gray-50 shadow h-screen overflow-hidden font-semibold">
+            p-2 w-16 overflow-y-auto text-center bg-gray-50 shadow h-screen overflow-hidden font-semibold pt-[5rem] z-10">
             <div class="text-gray-100 text-xl">
-              <div class="p-2.5 mt-1 flex items-center rounded-md">
-                <i class="bx bx-pie-chart-alt-2  px-2 py-2 bg-black text-gray-50 rounded-md" onclick="Openbar()"></i>
-                <h1 class="text-[15px]  ml-3 text-xl text-gray-200 font-bold pl-[1.1rem]">Dashboard</h1>
-              </div>
-              <hr class="my-2 text-gray-600">
-        
               <div>
-        
                 <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-gray-200">
                     <i class='bx bxl-xing text-black'></i>
                   <span class="text-[18px] ml-6 text-black ">Dashboard</span>

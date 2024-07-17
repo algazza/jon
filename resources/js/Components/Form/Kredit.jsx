@@ -6,7 +6,11 @@ const Kredit = () => {
     return (
         <div className="">
             <h2 className={`${styles.heading2} mb-2`}>Pengajuan</h2>
-            <form action="" className="grid justify-center gap-4 mx-auto md:grid-cols-x2500">
+
+            <div
+                action=""
+                className="grid justify-center gap-4 mx-auto md:grid-cols-x2500"
+            >
                 <div className="grid w-full sm:grid-cols-2 gap-4">
                     <div className={`${styles.inputSpan}`}>
                         <span>Jumlah Pinjaman</span>
@@ -75,14 +79,20 @@ const Kredit = () => {
                 </div>
 
                 <div className={`${styles.inputSpan}`}>
-                    <span>Alamat</span>
+                    <span>Catatan</span>
                     <textarea
                         required
                         className="textarea textarea-bordered"
-                        placeholder="Alamat"
+                        placeholder="Catatan"
                     ></textarea>
+                    <p className={`${styles.fontCaption}`}>
+                        Mohon mengisi di CATATAN kalo memang ada Informasi Awal
+                        yang perlu disampaikan kepada kami. Terima kasih telah
+                        memberikan kepercayaan kepada BPR ARTO MORO Semarang,
+                        kami akan segera menghubungi melalui No. Handphone Anda.
+                    </p>
                 </div>
-            </form>
+            </div>
         </div>
     );
 };

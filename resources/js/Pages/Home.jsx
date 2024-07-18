@@ -12,7 +12,7 @@ const Home = () => {
 <>
             <main className="bg-primary overflow-hidden font-jakarta">
                 <div className={`${styles.flexCenter}`}>
-                    <FormBank isiPenting={<Kredit />} value={"kredit"} />
+                    <FormBank isiPenting={<Kredit />} value={""} routes={"{{route}}"}/>
                 </div>
 
             </main>

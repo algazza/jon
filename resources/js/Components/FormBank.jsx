@@ -3,10 +3,10 @@ import styles from "../data/style";
 import { Title } from "@/data/user";
 import { formIdentitas, formPekerjaan } from "@/data";
 
-const FormBank = ({ isiPenting, value }) => {
+const FormBank = ({ isiPenting, value, routes }) => {
     return (
         <section className={`${styles.fontBody} mx-14 md:mx-auto `}>
-            <form className="grid my-12 gap-6 sm:gap-12">
+            <form action={routes} className="grid my-12 gap-6 sm:gap-12">
                 <div className="">
                     <h2 className={`${styles.heading3} mb-4 `}>Identitas</h2>
 

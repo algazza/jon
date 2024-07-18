@@ -19,7 +19,7 @@ const Kredit = () => {
                             <input
                                 required
                                 type="number"
-                                class="grow border-none "
+                                class="grow border-none"
                                 placeholder="xxx.xxx.xxx"
                             />
                         </label>

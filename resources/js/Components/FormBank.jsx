@@ -5,14 +5,14 @@ import { formIdentitas, formPekerjaan } from "@/data";
 
 const FormBank = ({ isiPenting, value }) => {
     return (
-        <section className={`${styles.fontBody}`}>
-            <form className="grid my-12 gap-12">
+        <section className={`${styles.fontBody} mx-14 md:mx-auto `}>
+            <form className="grid my-12 gap-6 sm:gap-12">
                 <div className="">
                     <h2 className={`${styles.heading3} mb-4 `}>Identitas</h2>
 
                     <div
                         action=""
-                        className="grid gap-4 mx-auto  md:grid-cols-x2500"
+                        className="grid gap-4 mx-auto md:grid-cols-x2500"
                     >
                         <div className="grid sm:justify-center w-full sm:grid-cols-2 gap-4">
                             {formIdentitas.map((iden) => (
@@ -96,16 +96,28 @@ const FormBank = ({ isiPenting, value }) => {
 
                 </div>
 
-                <input type="hidden" name="_action" value={value} />
-                <button className="overflow-hidden relative w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group">
-                    Hover me!
-                    <span className="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                    <span className="absolute w-36 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                    <span className="absolute w-36 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                    <span className="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">
-                        Explore!
-                    </span>
-                </button>
+                    <input type="hidden" name="_action" value={value} />
+<div className="flex gap-10">
+                    <button className={`overflow-hidden relative w-28 p-2 h-12 bg-biruTuwa-500 text-primary border-none rounded-md ${styles.fontBody} font-semibold cursor-pointer z-10 group`}>
+                        Ajukan!
+                        <span className="absolute w-32 h-32 -top-8 -left-2 bg-primary rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                        <span className="absolute w-32 h-32 -top-8 -left-2 bg-biruMuda-200 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                        <span className="absolute w-32 h-32 -top-8 -left-2 bg-biruMuda-500 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                        <span className="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">
+                            Submit!
+                        </span>
+                    </button>
+
+                    <button className={`overflow-hidden relative w-36 p-2 h-12 text-biruTuwa-500 border-2 border-biruTuwa-500 rounded-md ${styles.fontBody} font-semibold cursor-pointer z-10 group`}>
+                        Hubungi Kami
+                        <span className="absolute w-40 h-32 -top-9 -left-2 bg-abuTerang rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                        <span className="absolute w-40 h-32 -top-9 -left-2 bg-biruTuwa-200 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                        <span className="absolute w-40 h-32 -top-9 -left-2 bg-biruTuwa-300 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                        <span className="group-hover:opacity-100 group-hover:duration-1000 group-hover:text-primary duration-100 opacity-0 absolute top-2.5 left-6 z-10">
+                            Contact Us
+                        </span>
+                    </button>
+</div>
             </form>
         </section>
     );

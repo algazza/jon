@@ -7,11 +7,11 @@ const styles = {
     heading3: "font-bold xs:text-[39.06px] text-[29.03px]",
     heading4: "font-bold xs:text-[31.25px] text-[24.19px]",
     heading5: "font-bold xs:text-[25px] text-[20.16px]",
-    heading5: "font-bold xs:text-[20px] text-[16.8px]",
+    heading6: "font-bold xs:text-[20px] text-[16.8px]",
     fontBodyBold: "font-bold xs:text-[16px] text-[14px]",
     fontBody: "xs:text-[16px] text-[14px]",
     fontSmall: "font-bold xs:text-[12.8px] text-[11.67px]",
-    fontCaption: "xs:text-[10.24px] text-[9.72px] font-semibold",
+    fontCaption: "xs:text-[10.24px] text-[9.72px] font-medium",
 
     flexCenter: "flex justify-center items-center",
 }

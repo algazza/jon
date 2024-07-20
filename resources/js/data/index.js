@@ -1,3 +1,6 @@
+// ======================= HEADER =========================
+
+// =========================== FORM ====================
 export const formIdentitas= [
     {
         id: "name",
@@ -21,7 +24,6 @@ export const formIdentitas= [
     },
 ]
 
-
 export const formPekerjaan=[
     {
         id: "wirausaha",
@@ -35,6 +37,10 @@ export const formPekerjaan=[
     {
         id: "asn",
         title: "ASN(PNS)",
+    },
+    {
+        id: "nganggur",
+        title: "Tidak Bekerja",
     },
     {
         id: "lainnya",
@@ -90,6 +96,22 @@ export const formSelectKredit= [
     },
 ]
 
+export const formSelectTabungan = [
+    {
+        id: "tasbam",
+        title: "Tasbam"
+    },
+    {
+        id: "pro",
+        title: "Tabnungan Pro Aktive"
+    },
+    {
+        id: "lainnya",
+        title: "Tabungan Lainnya"
+    },
+]
+
+// ===================== FOOTER ========================
 export const footer1= [
     {
         id: "1",

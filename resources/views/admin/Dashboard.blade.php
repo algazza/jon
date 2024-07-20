@@ -169,7 +169,7 @@
                                 <p>16 December 2024</p>
                             </div>
                         </div>
-                         <p class="right-[2.2rem] py-[0.1rem] px-[1.3rem] bg-slate-200 text-[0.75rem] rounded-[10px]">
+                        <p class="right-[2.2rem] py-[0.1rem] px-[1.3rem] bg-slate-200 text-[0.75rem] rounded-[10px]">
                             Deposit
                         </p>
                     </div>

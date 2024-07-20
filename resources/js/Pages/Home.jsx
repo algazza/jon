@@ -16,7 +16,7 @@ const Home = () => {
             </main>
             <Footer/>
 </>
-    );
+    ); 
 };
 
 export default Home;

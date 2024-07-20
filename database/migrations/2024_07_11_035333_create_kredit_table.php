@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->string('email')->unique();  
-            $table->integer('no_handphone');
-            $table->integer('nik');
+            $table->integer('no_handphone')->unique();
+            $table->integer('nik')->unique();
             $table->string('alamat');
             $table->string('pekerjaan');
             $table->string('jumlah_pinjaman');

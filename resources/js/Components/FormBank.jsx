@@ -11,7 +11,7 @@ import {
     TextareaAutosize,
 } from "@mui/material";
 
-const FormBank = ({ isiPenting, value, routes }) => {
+const FormBank = ({ isiPenting, value, routes, pekerjaan}) => {
     return (
         <section className={`${styles.fontBody} mx-14 md:mx-auto `}>
             <form action={routes} className="grid my-12 gap-6 sm:gap-12">

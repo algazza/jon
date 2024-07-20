@@ -14,8 +14,8 @@ const Home = () => {
                 <div className={`${styles.flexCenter}`}>
                     {/* <FormBank isiPenting={<Kredit />} value={""} routes={"{{route}}"}/> */}
                     <FormBank isiPenting={<Tabungan />} value={""} routes={"{{route}}"}/>
-                </div>
 
+                </div>                          
             </main>
             <Footer/>
 </>

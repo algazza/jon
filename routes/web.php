@@ -11,9 +11,12 @@ use App\Http\Controllers\Admin\Component\KreditController;
 
 Route::get('/', function(){
     return Inertia::render('Home');
-})->name('kredit.tampil');
+});
 
 
+Route::get('/Kredit', function(){
+    return Inertia::render('KreditPage');
+});
 
 
 
@@ -56,7 +59,7 @@ Route::get('/Dashboard', [DashboardController::class,'tampil'])->name('dashboard
 Route::get("/Baner", [BannerController::class, 'tampil'])->name('banner.tampil');
 
 // Kredit
-Route::get('/Kredit', [KreditController::class, 'tampil']);
+Route::get('/Kredit/Admin', [KreditController::class, 'tampil']);
 Route::get('/Kredit/Id', [KreditController::class, 'isi']);
 Route::post('/Kredit/Submit', [KreditController::class, 'submit'])->name('kredit.submit');
 // Banner

@@ -3,7 +3,7 @@ import styles from "../data/style";
 import { Title } from "@/data/user";
 import { formIdentitas, formPekerjaan } from "@/data";
 
-const FormBank = ({ isiPenting, value, routes }) => {
+const FormBank = ({ isiPenting, value, routes, pekerjaan}) => {
     return (
         <section className={`${styles.fontBody} mx-14 md:mx-auto `}>
             <form action={routes} className="grid my-12 gap-6 sm:gap-12">
@@ -42,8 +42,9 @@ const FormBank = ({ isiPenting, value, routes }) => {
                                     >
                                         <input
                                             type="radio"
-                                            name="radio-1"
+                                            name={pekerjaan}
                                             class="radio"
+                                            value={kerja.title}
                                         />
                                         <span className="label-text">
                                             {kerja.title}
@@ -60,6 +61,7 @@ const FormBank = ({ isiPenting, value, routes }) => {
                                         type="text"
                                         placeholder="Lainnya"
                                         className="input input-ghost w-full max-w-xs"
+                                        name={pekerjaan}
                                         // onClick={checked = true}
                                     />
                                 </label>
@@ -72,6 +74,7 @@ const FormBank = ({ isiPenting, value, routes }) => {
                                 required
                                 className="textarea textarea-bordered"
                                 placeholder="Alamat"
+                                name="alamat"
                             ></textarea>
                         </div>
                     </div>

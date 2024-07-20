@@ -27,7 +27,7 @@ const Kredit = () => {
                     {formSelectKredit.map((selek) => (
                         <div key={selek.id} className={`${styles.inputSpan}`}>
                             <span>{selek.title}</span>
-                            <select class="select select-bordered w-full max-w-xs">
+                            <select class="select select-bordered w-full max-w-xs" name={selek.name}>
                                 <option disabled selected>
                                     {selek.placeholder}
                                 </option>
@@ -46,7 +46,7 @@ const Kredit = () => {
                 <div className=" md:col-[2/3] md:row-[1/3]">
                     <div className={`${styles.inputSpan} mb-4`}>
                         <span>Bunga/Tahun</span>
-                        <select class="select select-bordered w-full max-w-xs">
+                        <select class="select select-bordered w-full max-w-xs" name="">
                             <option disabled selected>
                                 Pilih Bunga Pertahunnya
                             </option>

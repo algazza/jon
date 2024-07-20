@@ -30,6 +30,7 @@ export const formPekerjaan=[
     {
         id: "karyawan",
         title: "Karyawan Swasta",
+
     },
     {
         id: "asn",
@@ -67,7 +68,8 @@ export const formSelectKredit= [
         placeholder: "Tentukan Tenor",
         option1: "1 bulan",
         option2: "3 bulan",
-        option3: "6 bulan"
+        option3: "6 bulan",
+        name: "jangka_waktu"
     },
     {
         id: "angunan",
@@ -75,6 +77,7 @@ export const formSelectKredit= [
         placeholder: "Pilih...",
         option1: "Tanah & Bangunan Permanen",
         option2: "Tanah Kosong",
+        name: "jenis_angunan"
     },
     {
         id: "bunga",
@@ -82,7 +85,8 @@ export const formSelectKredit= [
         placeholder: "Tentukan Tenor",
         option1: "Flat",
         option2: "Anuitas",
-        option3: "Efektif"
+        option3: "Efektif",
+        name: "bunga"
     },
 ]
 
